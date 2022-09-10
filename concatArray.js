@@ -17,8 +17,4 @@ return array1.concat(array2)
 
 
 }
-console.log(concatArray([5, 10, 15], [2, 4, 6, 7]))
-console.log(concatArray(undefined, [2, 4, 6, 7]))
-console.log(concatArray([2, 4, 6, 7], null))
-console.log(concatArray(undefined, [2, 4, 6, 7]))
 module.exports = concatArray
